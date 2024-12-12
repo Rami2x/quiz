@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz: Gissa klasskompisen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz: Gissa klasskompisen</h1>
+  </header>
+  <main>
+    <section id="game-setup">
+      <h2>Välj antal frågor</h2>
+      <div class="button-container">
+        <button class="question-count" data-count="5">5 Frågor</button>
+        <button class="question-count" data-count="10">10 Frågor</button>
+        <button class="question-count" data-count="all">Alla Frågor</button>
+      </div>
+    </section>
+    <section id="game-area" class="hidden"></section>
+    <section id="results" class="hidden"></section>
+    <button id="show-results" class="hidden">Visa resultat</button>
+  </main>
+  <footer>
+    <p>Skapad av Rami</p>
+  </footer>
+  <script src="students.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
